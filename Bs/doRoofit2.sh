@@ -41,8 +41,12 @@ CENTPbPbMAX=90
 #INPUTMCPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BsMC.root"
 #INPUTMCPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/2018Ana/BsRAA2015RunII/NunoClosure/New/0-90/10-50/EffInfo_MC_Closure-1.root"
 
-INPUTMCPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BsMC.root"
-INPUTDATAPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BsData.root"
+#INPUTMCPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BsMC.root"
+#INPUTDATAPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BsData.root"
+
+
+INPUTMCPbPbCANDWISE_BS="../InputFiles/BsMC.root"
+INPUTDATAPbPbCANDWISE_BS="../InputFiles/BsData.root"
 
 
 #INPUTMCPbPbCANDWISE_BS="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/2018Ana/BsRAA2015RunII/NunoClosure/CheckSystNuno/NoWeight/MCSPlitRanGen/0-90/10-50/5/MC_100.root"

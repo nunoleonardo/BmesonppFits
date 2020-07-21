@@ -40,8 +40,12 @@ INPUTDATAPbPbCANDWISE_BS="./flat_trees/selected_data_ntphi_PbPb_2018_new_train_B
 #INPUTDATAPbPbCANDWISE_BP="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/2017B0BPSkim/SkimmedCutBP.root"
 
 
-INPUTMCPbPbCANDWISE_BP="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BPMC.root"
-INPUTDATAPbPbCANDWISE_BP="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BPData.root"
+#INPUTMCPbPbCANDWISE_BP="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BPMC.root"
+#INPUTDATAPbPbCANDWISE_BP="/export/d00/scratch/zzshi/CMSSW_7_5_8_patch3/Merge/ppDataSets/FirstSamples/WithBDT/BPData.root"
+
+
+INPUTMCPbPbCANDWISE_BP="../InputFiles/BPMC.root"
+INPUTDATAPbPbCANDWISE_BP="../InputFiles/BPData.root"
 
 
 LABELPbPb="PbPb"
