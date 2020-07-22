@@ -12,10 +12,18 @@ Then get this repository first download it from github by doing:
 
 git clone https://github.com/MYOMAO/BmesonppFits.git
 
+All the input files are stored at InputFiles/
+
+If you do ls, you should see
+
 
 ## Get the B+ Fits for pT = 5 - 50 GeV/c ##
 
 cd  BPlus/
+
+mkdir -p ROOTfiles
+
+mkdir -p plotFits/final_roofit/
 
 source doAnalysis3.sh
 
@@ -33,6 +41,12 @@ You can have a look at the png or pdf file and you should be able to see a very 
 ## Get the Bs Fits for pT = 5 - 50 GeV/c ##
 
 cd  Bs/
+
+
+mkdir -p ROOTfiles
+
+mkdir -p plotFits/final_roofit/
+
 
 source doAnalysis2.sh
 
